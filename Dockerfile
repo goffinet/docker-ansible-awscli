@@ -18,6 +18,7 @@ RUN apt-get update \
     boto3 \
     awscli \
     ansible \
+    awscli-plugin-endpoint \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/* \
   && rm -rf /tmp/*
